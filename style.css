@@ -1,0 +1,130 @@
+* {
+    font-size:24px;
+}
+
+header {
+    position: fixed;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 72px;
+    margin-right: 20px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header-right p {
+    margin:0 20px;
+    text-align: center;
+}
+
+.top {
+    position: relative;
+}
+
+img.photo{
+   height:190px;
+   width: 300px;
+}
+
+.top img {
+    background-size: cover;
+    width: 100%;
+}
+
+.top .top_text {
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    background-color:rgba(255, 255, 255, 0.157);
+    color: white;
+}
+
+.top .scroll {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    background-color:rgba(255, 255, 255, 0.157);
+    color: white;
+}
+
+.top .top_text span {
+    font-size: 48px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info p {
+    margin:0;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.recommend {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recommend h2 {
+    margin-top: 10px;
+}
+
+.recommend div {
+    margin:0 30px;
+}
+
+.recommend div p {
+    text-align: center;
+    margin:0;
+}
+
+.recommend div span {
+    font-weight: bold;
+}
+
+.news {
+    text-align: center;
+}
+
+.news .news_area {
+    border: 1px solid red;
+    display: inline-block;
+
+}
+
+.model_course {
+    display:flex;
+    justify-content: space-around;
+}
+
+.model_course div {
+   
+}
+
+.model_course img {
+    width: 300px;
+}
+
+.model_course p {
+    margin: 0;
+    text-align: center;
+}
