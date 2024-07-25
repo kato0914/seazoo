@@ -6,6 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <style>
+        .header-right p {
+            display: inline;
+        }
+
+        @media (max-width: 600px) {
+            .header-right p {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
     
@@ -14,9 +25,17 @@
 <header>
     <img class="logo" src="./jpg/logo.webp" alt="">
     <div class="header-right">
-        <p>language</p>
         <p>チケット<br>購入</p>
         <p>アクセス</p>
+        <button class="hamburger" aria-label="メニュー">
+            &#9776; <!-- ハンバーガーアイコン -->
+        </button>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#section1">チケット購入</a></li>
+                <li><a href="#section2">アクセス</a></li>
+            </ul>
+        </nav>
     </div>
     <p class="menu"></p>
 </header>
@@ -71,3 +90,5 @@
         <p>友だちと</p>
     </div>
 </div>
+
+<script src="script.js"></script>
